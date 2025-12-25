@@ -40,7 +40,7 @@ header p {
    HERO / PORTADA
 ========================= */
 .hero {
-  background: url("images/portada.jpg") center/cover no-repeat;
+  background: url("images/Portada.jpg") center/cover no-repeat;
   height: 90vh;
   display: flex;
   flex-direction: column;
