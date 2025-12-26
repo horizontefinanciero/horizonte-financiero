@@ -187,3 +187,37 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+/* =========================
+   FORMULARIO DE CONTACTO
+========================= */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  background: #f5c542;
+  color: #000;
+  font-weight: bold;
+}
