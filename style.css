@@ -188,6 +188,19 @@ footer {
   }
 }
 
+/* ===== SECCIÓN INGRESOS ===== */
+
+#ingresos {
+  background: #f9fbfd;
+  padding: 40px 20px;
+}
+
+#ingresos h2 {
+  color: #2c5364;
+  text-align: center;
+}
+
+
 /* =========================
    FORMULARIO DE CONTACTO
 ========================= */
