@@ -40,15 +40,22 @@ header p {
    HERO / PORTADA
 ========================= */
 .hero {
-  background: url("images/Portada.jpg") center/cover no-repeat;
-  height: 90vh;
+  width: 100vw;
+  height: 60vh;              /* menos alto */
+  background-image: url("images/portada.jpg");
+  background-size: 100% auto; /* 🔥 CLAVE: ancho completo */
+  background-position: center top;
+  background-repeat: no-repeat;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   color: white;
   text-align: center;
 }
+
 
 /* =========================
    NAVBAR
